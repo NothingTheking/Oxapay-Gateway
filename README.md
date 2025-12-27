@@ -82,7 +82,7 @@ If the secrets do not match, payments will not be confirmed. This is intentional
 
 ## Screenshot
 
-![OxaPay Paymenter Gateway Screenshot](https://ibb.co/S7wD09zD)
+![OxaPay Paymenter Gateway Screenshot](https://raw.githubusercontent.com/NothingTheking/Oxapay-Gateway/main/image.png)
 
 ---
 
