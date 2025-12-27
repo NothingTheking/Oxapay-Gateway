@@ -59,11 +59,18 @@ If you don’t meet these requirements, don’t install it.
 
 2. Enable **OxaPay** from the Paymenter admin panel
 
-3. Enter your **Merchant API key**
+3. Enter your **OxaPay Merchant API key**
 
 4. Configure the webhook URL in OxaPay:
 
-5. Set the **webhook secret** in Paymenter It can be random letters
+
+5. Set the **webhook secret** in Paymenter  
+(It can be a random secure string, but it **must match** the one set in OxaPay)
+
+If the secrets do not match, payments will not be confirmed. This is intentional.
+
+---
+
 ## Technical Notes
 
 - Successful OxaPay responses return `result = 100`
@@ -75,7 +82,7 @@ If you don’t meet these requirements, don’t install it.
 
 ## Screenshot
 
-![OxaPay Paymenter Gateway Screenshot](Screenshot%202025-12-27%20123727.png)
+![OxaPay Paymenter Gateway Screenshot](https://builtbybit.com/attachments/screenshot-2025-12-27-123727-png.1146185/?preset=fullr1)
 
 ---
 
